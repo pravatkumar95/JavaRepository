@@ -32,6 +32,7 @@ public class AuthController {
     public ResponseEntity<String> getStatus(){
         String message="Welcome to pravat";
         String message2="Welcome to pravat kumargit ";
+        String message4="Welcome to pravat kumargit ";
         return new ResponseEntity<>(message,HttpStatus.OK);
     }
 
