@@ -31,7 +31,9 @@ public class AuthController {
     @GetMapping("/getStatus")
     public ResponseEntity<String> getStatus(){
         String message="Welcome to pravat";
+
         String message3="welcome to centroxy";
+        
         return new ResponseEntity<>(message,HttpStatus.OK);
     }
 
